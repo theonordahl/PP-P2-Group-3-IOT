@@ -1,0 +1,116 @@
+h1 {
+    color: fuchsia;
+  }
+  
+  #buttonDiv {
+  text-align:center;
+  margin-top:20%;
+  display: none;
+  
+  }
+  
+  .soundButton {
+  width:40px;
+  height:40px;
+  
+  
+  }
+  
+  .chordButton1 {
+  width:50px;
+  height:40px;
+  
+  }
+  
+  .chordButton2 {
+  width:50px;
+  height:40px;
+  
+  }
+  
+  #chordDiv {
+  padding-left:30px;
+  display:inline-block;
+  
+  
+  }
+
+
+
+  html {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #2f2f2f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  h1 {
+    color: blueviolet;
+  }
+  a, a:link, a:visited {
+    color: darkred;
+  }
+  a:hover {
+    color: black;
+  }
+  
+  #lastMsg {
+    font-family: monospace;
+    overflow: scroll;
+    height: 10rem;
+    display: none;
+  }
+  
+  #imgSend{
+
+margin-top: 15%;
+position: absolute;
+margin-left:32%;
+
+transition: opacity 0.15s ease-in-out;
+-moz-transition: opacity 0.15s ease-in-out;
+-webkit-transition: opacity 0.15s ease-in-out;
+
+
+}
+
+#imgSend1 {
+
+  margin-top: 15.2%;
+  position: absolute;
+  margin-left:31.7%;
+  
+  transition: opacity 0.15s ease-in-out;
+  -moz-transition: opacity 0.15s ease-in-out;
+  -webkit-transition: opacity 0.15s ease-in-out;
+
+}
+
+#imgSend2 {
+  margin-top: 15%;
+  position: absolute;
+  margin-left:32%;
+  
+  transition: opacity 0.15s ease-in-out;
+  -moz-transition: opacity 0.15s ease-in-out;
+  -webkit-transition: opacity 0.15s ease-in-out;
+
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+  
+
+  #tunearm{
+width:400px;
+margin-top:15%;
+position: absolute;
+margin-left:32%;
+
+
+  }
+

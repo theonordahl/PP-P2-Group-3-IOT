@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    
+    <audio id="myAudio1">
+    <source src="https://cdn.glitch.com/7ace92d8-0b83-4d33-a27c-5c15f524a5b4%2FHear%20Piano%20Note%20-%20Mid%20A.mp3?1521108873450" type="audio/wav">
+    </audio>
+    
+    <audio id="myAudio2">
+    <source src="https://cdn.glitch.com/7ace92d8-0b83-4d33-a27c-5c15f524a5b4%2FHear%20Piano%20Note%20-%20Mid%20D.mp3?1521108881210" type="audio/wav">
+    </audio>
+    
+    <audio id="myAudio3">
+    <source src="https://cdn.glitch.com/7ace92d8-0b83-4d33-a27c-5c15f524a5b4%2FHear%20Piano%20Note%20-%20Mid%20F%20Sharp%20or%20G%20Flat.mp3?1521108888156" type="audio/wav">
+    </audio>
+    
+    <audio id="myAudio1Chord">
+    <source src="https://cdn.glitch.com/7ace92d8-0b83-4d33-a27c-5c15f524a5b4%2FHear%20Piano%20Note%20-%20Mid%20A.mp3?1521108873450" type="audio/wav">
+    </audio>
+    
+    <audio id="myAudio2Chord">
+    <source src="https://cdn.glitch.com/7ace92d8-0b83-4d33-a27c-5c15f524a5b4%2FHear%20Piano%20Note%20-%20Mid%20D.mp3?1521108881210" type="audio/wav">
+    </audio>
+    
+    <audio id="myAudio3Chord">
+    <source src="https://cdn.glitch.com/7ace92d8-0b83-4d33-a27c-5c15f524a5b4%2FHear%20Piano%20Note%20-%20Mid%20F%20Sharp%20or%20G%20Flat.mp3?1521108888156" type="audio/wav">
+    </audio>
+    
+    <script src="/script.js" defer>
+    </script>
+    
+  </head>
+  <body>
+
+    <div id="buttonDiv">
+      
+      
+    <button class="soundButton" onclick="sound1()">
+    Note 1
+    </button>
+    
+    <button class="soundButton" onclick="sound2()">
+    Note 2
+    </button>
+    
+    <button class="soundButton" onclick="sound3()">
+    Note 3
+    </button>
+    
+      <div id="chordDiv">
+      
+        <button class="chordButton1" onclick="sound4()">
+        Chord 1
+        </button>
+      
+      </div>
+      
+      <div id="chordDiv">
+      
+        <button class="chordButton2" onclick="soundRelative()">
+          Final         
+        </button>
+      
+      </div>
+      
+    </div>
+    
+    
+
+
+    <!--
+  
+    <form id="sendForm">
+      <input id="imgSend"type="image" name="submit" src="https://cdn.glitch.com/ebfc38c9-6980-4b2c-9a37-e370888edc41%2Fchrome.png?1521468801506" alt="Submit"onclick="soundRelative()">
+      <input id="imgSend" type="image" name="submit" src="https://cdn.glitch.com/ebfc38c9-6980-4b2c-9a37-e370888edc41%2Ftonearm5.png?1521468798289" alt="Submit"onclick="soundRelative(),spinFunc()" > </image>
+    </form>
+
+    -->
+  
+    <form id="sendForm">
+      <image id="imgSend" src="https://cdn.glitch.com/ebfc38c9-6980-4b2c-9a37-e370888edc41%2FbackgroundFINAL2.png?1521548058588" alt="Submit"onclick="soundRelative(),spinFunc()"></image>
+      <input id="imgSend1" type="image" name="submit" src="https://cdn.glitch.com/ebfc38c9-6980-4b2c-9a37-e370888edc41%2Fbig2.png?1521545197906" alt="Submit"onclick="soundRelative(),spinFunc()" > 
+      <input id="imgSend2" type="image" name="submit" src="https://cdn.glitch.com/ebfc38c9-6980-4b2c-9a37-e370888edc41%2FbluecircleFINAL.png?1521547811799" alt="Submit"onclick="soundRelative(),spinFunc()" > 
+    </form>
+  
+
+    <div id="lastMsg">(nothing)</div>
+  
+    <script src="lib/reconnecting-websocket.js"></script>
+    <script src="script.js"></script>
+
+    
+    
+  </body>
+</html>
