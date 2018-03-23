@@ -1,0 +1,3 @@
+This code is a webiste that was designed to be used with the arduino board. The prototypes purpose was to trigger when a person sets of the vibration sensor connected to the arduino board. This webiste was to act as the TV screen in the testing scenario. It lights up like the TV screen would, shows a picture and sends a notification to my phone, for testing purposes it only sends the notification to my phone, via the ifttt website.
+
+Glitch link to this project: https://brick-cement.glitch.me/

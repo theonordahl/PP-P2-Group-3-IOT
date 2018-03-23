@@ -1,0 +1,3 @@
+This code makes it possible to trigger events with the vibration sensor, which we used instead of a motion sensor that we thought our prototype would use. When it detects a vibration strong enough to register it presses the space button on the computer it is connected to, this integrates with the website, and then fades the connected LED lights ligth, this was to simulate the chromecast.
+
+The vibration sensor should be connected to the 5V, pin 10 and grounding pins on the arduino board. The light needs a resistor connected between the 13 pin and the ligth, and the other pin on the ligth should be connected to the grounding pin on the arduino board.
