@@ -1,4 +1,6 @@
 
+<h2> Programming II Report </h2>
+
 The different prototypes we built were to question certain assumptions and to get insights from test users on how chromecast should reveal itself in a targeted setting. I used cardboard and other materials to physical prototypes but in order to create unique interactions and sequence of events and feedbacks in sync, I programmed and implemented a connected system that involves, node.js websocket server application, native android mobile application, client web application and an arduino.
 
 Coming up with codes that will actually create these sequence of interactions and feedbacks in a connected system was quite challenging but the limited knowledge of programming I acquired in this course gave me more power to do certain things I would not have done without this knowledge.
