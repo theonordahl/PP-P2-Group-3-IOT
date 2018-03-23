@@ -1,0 +1,21 @@
+.colorImg {
+width:24.8%;
+opacity: 0;
+transition: opacity 1.75s ease-in-out;
+-moz-transition: opacity 1.75s ease-in-out;
+-webkit-transition: opacity 1.75s ease-in-out;
+position: absolute;
+padding-left:37%;
+padding-top:5%;
+}
+
+@media (max-width:1000px) {
+.colorImg{
+width:85%;
+padding-left:7.5%;
+padding-top:7.5%;
+
+}
+
+}
+
